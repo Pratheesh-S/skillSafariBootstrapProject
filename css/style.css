@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+.side-bar
+{
+    height: 100vh;
+   width: auto;
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/img1.jpeg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:5px 7px 20px rgba(2, 1, 1, 0.466);
+}
+.bottom-border
+{
+    border-bottom: .1rem solid white;
+}
+.dash
+{
+    background-color: tomato;
+    border:2px solid white;
+    border-radius: 10px;
+
+}
+.dash:hover{
+    transform: translateY(-2px);
+    background-color: rgba(230, 49, 17, 0.918);
+    font-size:1.1em;
+}
+/* .side-link {
+    transition: all .4s;
+  } */
+  
+  .side-link:hover {
+    transform: translateZ(4px);
+    background-color: rgba(110, 105, 105, 0.925);
+    border-radius: 10px;
+    border:1px solid white;
+    box-shadow: 1px 1px 3px white;
+    font-size:1.1em;
+
+    
+  }
+  .btn-search {
+    border-radius: 50%;
+    padding: 12px 16px;
+    transition: all .4s;
+    transform: translateY(-5px);
+
+
+  }
+  
+  .btn-search:hover {
+    background-color: #eee;
+    transform: translateY(-8px);
+  }
+  .search
+  {
+    border: transparent;
+    color: white!important;
+    background-color: transparent;
+    border-bottom:2px solid tomato;
+    
+
+  }
+  .search:focus
+  {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom:2px solid tomato;
+
+  }
+  .dot
+  {
+    position: relative;
+  }
+  
+  .dot-link::after
+  {
+    content: "";
+    top:5px;
+    position: absolute;
+    left:17px;
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: tomato;
+    border-color:tomato;
+
+  }
+  @media(max-width:766px)
+  {
+    .side-bar{
+      position: static;
+      height: auto;
+      width: 100%;
+    }
+    .top-bar
+    {
+      position: static;
+    }
+  }
+  .section .shadow
+  {
+    box-shadow: 2px 3px 5px #999;
+   
+  }
+  .section .shadow:hover
+  {
+    box-shadow: 3px 5px 15px #999;
+    transform: translateY(-2px);
+
+  }
+  .task-border
+  {
+    border-left: 3px solid blue;
+  }
+  
+  
